@@ -1,7 +1,7 @@
 Changes made:
 =============
 * Changed indentation of generated Java code to 4-space.
-* Removed traling spaces in generated Java code.
+* Removed trailing spaces in generated Java code.
 
 Compile command:
 
