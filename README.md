@@ -3,8 +3,10 @@ Changes made:
 * Removed traling spaces in generated Java code.
 
 Compile command:
-    javac -d bin/ -target 1.5 -source 1.5 -cp deps/CodeProcessor.jar:deps/FileEdit.jar:deps/ContestApplet.jar:src/ src/moj/*.java
 
+```
+javac -d bin/ -target 1.5 -source 1.5 -cp deps/CodeProcessor.jar:deps/FileEdit.jar:deps/ContestApplet.jar:src/ src/moj/*.java
+```
 
 Hello!
 
