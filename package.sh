@@ -15,7 +15,7 @@ rm -f deploy/moj_instructions.txt
 echo "moj $VERSION" >> deploy/moj_instructions.txt
 echo "moj $VERSION" | sed -e 's/./=/g' >> deploy/moj_instructions.txt
 echo >> deploy/moj_instructions.txt
-cat README >> deploy/moj_instructions.txt
+cat README.md >> deploy/moj_instructions.txt
 
 echo "Creating zip..."
 target=deploy/moj_$VERSION.zip

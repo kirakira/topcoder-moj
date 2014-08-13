@@ -1,14 +1,3 @@
-Changes made:
-=============
-* Changed indentation of generated Java code to 4-space.
-* Removed trailing spaces in generated Java code.
-
-Compile command:
-
-```
-javac -d bin/ -target 1.5 -source 1.5 -cp deps/CodeProcessor.jar:deps/FileEdit.jar:deps/ContestApplet.jar:src/ src/moj/*.java
-```
-
 Hello!
 
 moj is a plug-in for the TopCoder arena that helps you compete
@@ -68,7 +57,8 @@ moj. Improvements over TZTester are:
 6. Visual C++ support.
 
 
-Setup:
+Setup
+=====
 
 1. Unzip the three .jar files in the moj package to a folder of your 
    liking.
@@ -93,6 +83,14 @@ Setup:
 5. In the CodeProcessor configuration window, write moj.moj as the
    processor class and verify. If all is good, you'll get 4 "found"
    reports. Configure moj to your liking.
+
+Build
+=====
+Compile:
+
+```
+javac -d bin/ -target 1.5 -source 1.5 -cp deps/CodeProcessor.jar:deps/FileEdit.jar:deps/ContestApplet.jar:src/ src/moj/*.java
+```
 
 
 For bug reports, suggestions and questions, please use the member
