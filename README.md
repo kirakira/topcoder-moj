@@ -1,9 +1,9 @@
-Changed made:
+Changes made:
 * Changed indentation of generated Java code to 4-space.
 * Removed traling spaces in generated Java code.
 
 Compile command:
-  javac -d bin/ -target 1.5 -source 1.5 -cp deps/CodeProcessor.jar:deps/FileEdit.jar:deps/ContestApplet.jar:src/ src/moj/*.java
+    javac -d bin/ -target 1.5 -source 1.5 -cp deps/CodeProcessor.jar:deps/FileEdit.jar:deps/ContestApplet.jar:src/ src/moj/*.java
 
 
 Hello!
